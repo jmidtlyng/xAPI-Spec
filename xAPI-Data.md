@@ -156,7 +156,7 @@ language tags, for similar reasons.
 * <a name="2.2.s3.b4"></a>Values SHOULD be considered to be case sensitive unless specified otherwise. 
 * <a name="2.2.s3.b5"></a>Lowercase SHOULD be used to send case insensitive data.
 * <a name="2.2.s3.b6"></a>Additional properties SHOULD* NOT be added to Statements unless explicitly allowed by this specification. 
-* <a name="2.2.s3.b7"></a>A property SHOULD not occur multiple times in an object. If properties are used multiple times 
+* <a name="2.2.s3.b7"></a>A property SHOULD NOT occur multiple times in an object. If properties are used multiple times 
 within an object, the behavior of the LRS is undefined; it is expected that most LRSs will use existing JSON parsing 
 functionality of whichever code languages they use. 
 
